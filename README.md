@@ -9,6 +9,8 @@ Untuk hasil perbandingan, terdapat img di folder ```public/img``` dan di folder 
     </li>
 #### Tanpa Queue
 
+Durasi yang didapat adalah sebagai berikut:
+
 1. Get Data
 
 <img src="/public/img/without-queue/get-books.jpeg">
@@ -16,4 +18,12 @@ Untuk hasil perbandingan, terdapat img di folder ```public/img``` dan di folder 
 2. Post Data
 
 <img src="/public/img/without-queue/post-books.jpeg">
+
+#### Dengan Queue
+
+Durasi yang didapat adalah sebagai berikut:
+
+1. Post Data
+
+<img src="/public/img/with-queue/post-books.jpeg">
 

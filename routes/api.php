@@ -2,6 +2,8 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\API\BookControllerWithQueue;
+use App\Http\Controllers\API\BookControllerWithoutQueue;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+// Route Without Queue
+Route::resource("books-without-queue", BookControllerWithoutQueue::class)->except(["show", "update", "delete"]);
+
+// Route With Queue
+Route::resource("books-with-queue", BookControllerWithQueue::class)->except(["show", "update", "delete"]);
