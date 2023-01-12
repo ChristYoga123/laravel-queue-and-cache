@@ -1,7 +1,19 @@
 # Laravel Queue dan Cache
 
-Untuk pembelajaran ini, saya akan mencoba untuk mengaplikasikan penggunaan queue dan cache untuk mempercepat kinerja Laravel sehingga performa semakin optimal dan berjalan secara async.
+### QUEUE
 
-Untuk queue berada di branch Queue
+Untuk hasil perbandingan, terdapat img di folder ```public/img``` dan di folder tersebut ada:
+    <ul>
+        <li>with-queue</li>
+        <li>without-queue</li>
+    </li>
+#### Tanpa Queue
 
-Untuk cache berada di branch Cache
+1. Get Data
+
+<img src="public/img/without-queue/get-books.jpeg">
+
+2. Post Data
+
+<img src="public/img/without-queue/post-books.jpeg">
+
