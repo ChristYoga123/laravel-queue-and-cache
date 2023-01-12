@@ -17,8 +17,10 @@ Saya akan membuat API untuk melakukan CRUD Data Buku sederhana yang berisi:
 
 Selain itu, saya akan mengimplementasikan Push Mail Notification dan Login System untuk mengakses API dengan menggunakan queue.
 
-Konfigurasi Queue dasar pada .env Laravel adalah:
+- Konfigurasi Queue dasar pada .env Laravel adalah:
 
 ```
 QUEUE_CONNECTION=database // bebas mengikuti driver yang disediakan seperti: database, redis, sqs, dan aws
 ```
+
+NB: Pengecekan performa pada queue akan saya buat endpoint terpisah supaya dapat melakukan pengecekan berapa lama sebuah kode dijalankan dengan atau tanpa dengan queue
