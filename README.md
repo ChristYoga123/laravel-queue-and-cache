@@ -11,9 +11,9 @@ Untuk hasil perbandingan, terdapat img di folder ```public/img``` dan di folder 
 
 1. Get Data
 
-<img src="public/img/without-queue/get-books.jpeg">
+<img src="/public/img/without-queue/get-books.jpeg">
 
 2. Post Data
 
-<img src="public/img/without-queue/post-books.jpeg">
+<img src="/public/img/without-queue/post-books.jpeg">
 
