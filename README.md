@@ -5,3 +5,14 @@ Untuk pembelajaran ini, saya akan mencoba untuk mengaplikasikan penggunaan queue
 Untuk queue berada di branch Queue
 
 Untuk cache berada di branch Cache
+
+### Proyek Implementasi
+
+Saya akan membuat API untuk melakukan CRUD Data Buku sederhana yang berisi:
+
+<ul>
+    <li>Judul</li>
+    <li>Gambar</li>
+</ul>
+
+Selain itu, saya akan mengimplementasikan Push Mail Notification dan Login System untuk mengakses API dengan menggunakan queue.
